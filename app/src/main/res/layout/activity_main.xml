@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFDE03"
+    android:padding="8dp"
+    tools:context=".MainActivity">
+
+        //SANTOSH
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="0dp"
+            style="@style/childColor"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Santosh Neupane" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/callChild"
+            android:id="@+id/call_santosh" />
+    </LinearLayout>
+
+        //RAMKUMAR
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="0dp"
+            style="@style/childColor"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_weight="2"
+            android:text="Ram Kumar Paudel" />
+
+        <Button
+            android:layout_width="0dp"
+            android:id="@+id/call_ramkumar"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+           style="@style/callChild"/>
+    </LinearLayout>
+
+    //RAJAN
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="0dp"
+            style="@style/childColor"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_weight="2"
+            android:text="Rajan Prasai" />
+
+        <Button
+            android:layout_width="0dp"
+            style="@style/callChild"
+            android:id="@+id/call_rajan"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    //RAUT
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_weight="2"
+            style="@style/childColor"
+            android:text="Basu Raut" />
+
+        <Button
+            android:layout_width="0dp"
+            style="@style/callChild"
+            android:id="@+id/call_raut"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+
+    //Ambar
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            style="@style/childColor"
+            android:textSize="20sp"
+            android:layout_weight="2"
+            android:text="Ambar Basnet" />
+
+        <Button
+            android:layout_width="0dp"
+            style="@style/callChild"
+            android:id="@+id/call_ambar"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    //Badri
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            style="@style/childColor"
+            android:textSize="20sp"
+            android:layout_weight="2"
+            android:text="Badri Adhikari" />
+
+        <Button
+            android:layout_width="0dp"
+            style="@style/callChild"
+            android:id="@+id/call_badri"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    //Prakash
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            style="@style/childColor"
+            android:textSize="20sp"
+            android:layout_weight="2"
+            android:text="Prakash Pun" />
+
+        <Button
+            android:layout_width="0dp"
+            style="@style/callChild"
+            android:id="@+id/call_prakash"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    //Mingma
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            style="@style/childColor"
+            android:layout_weight="2"
+            android:text="Mingma Sherpa" />
+
+        <Button
+            android:layout_width="0dp"
+            style="@style/callChild"
+            android:id="@+id/call_mingma"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    //Limbu Dai
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            style="@style/childColor"
+            android:layout_weight="2"
+            android:text="Limbu Dai" />
+
+        <Button
+            android:layout_width="0dp"
+            style="@style/callChild"
+            android:id="@+id/call_limbudai"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    //Nabin
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            style="@style/childColor"
+            android:textSize="20sp"
+            android:layout_weight="2"
+            android:text="Nabin Chhetri" />
+
+        <Button
+            android:layout_width="0dp"
+            style="@style/callChild"
+            android:id="@+id/call_nabin"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    //Ishwor Wagle
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            style="@style/childColor"
+            android:layout_weight="2"
+            android:text="Ishwor Wagle" />
+
+        <Button
+            android:layout_width="0dp"
+            style="@style/callChild"
+            android:id="@+id/call_ishwor"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    //Kisan KC
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            style="@style/childColor"
+            android:layout_weight="2"
+            android:text="Kisan KC" />
+
+        <Button
+            android:layout_width="0dp"
+            style="@style/callChild"
+            android:id="@+id/call_kisan"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>
